@@ -19,7 +19,7 @@
  </head>
  <body>
   <div class="container">
-   <h2 align="center">Cek Nomor Resi By gascoding</h2>
+   <h2 align="center">Cek Nomor Resi</h2>
    <hr>
    <div class="col-lg-4">
     <div class="panel panel-success">
@@ -27,7 +27,7 @@
      <div class="panel-body">
       <form action="" method="post">
         <div class="form-group"> 
-        <label for="" class="control-label">Example Kode</label>
+        <label for="" class="control-label">Contoh Kode</label>
         <p>SOCAG00183235715 - JNE</p>
        </div>
        <div class="form-group"> 
