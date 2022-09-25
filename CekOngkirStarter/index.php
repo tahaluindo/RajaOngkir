@@ -1,5 +1,5 @@
 <?php
-    $api_key = "diisi dengan api key anda";
+    $api_key = "c2993a8c77565268712ef1e3bfb798f2";
     
     function get_city($key){
         $data = [
