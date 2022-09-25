@@ -109,6 +109,18 @@
                         </h3>
                     </div>
                 </a>
+                </a>
+                <a href="https://github.com/tahaluindo/RajaOngkir/tree/main/CekResi">
+                    <div style="  background: rgb(111,139,231);
+                    background: linear-gradient(90deg, rgba(111,139,231,1) 0%, rgba(47,41,157,1) 100%);  ">
+                        <span class="iconify" data-inline="false" data-icon="brandico:gitlab"></span>
+                        <h3>
+                            Cek Resi
+                        </h3>
+                    </div>
+                </a>
+                    </div>
+                </a>
             </article>
         </section>
 
