@@ -1,7 +1,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <?php
-    $api_key = "diisi dengan api key anda";
+    $api_key = "f70a07c9eb25d5f27b81093e624ce50b";// Gak Usah Di Ganti
 
     function get_city($key){
         $data = [
@@ -204,7 +204,7 @@
         var key = "<?=$api_key;?>";
         $.ajax({
             type : 'POST',
-            url : 'http://localhost/CekOngkirPro/cek_kecamatan.php',
+            url : 'http://rajaongkir-tools.herokuapp.com/CekOngkirPro/cek_kecamatan.php',
             data :  {'city_id' : city_id, 'key' : key},
                 success: function (data) {
                     $("#kecamatan_asal").html(data);
@@ -217,7 +217,7 @@
         var key = "<?=$api_key;?>";
         $.ajax({
             type : 'POST',
-            url : 'http://localhost/CekOngkirPro/cek_kecamatan.php',
+            url : 'http://rajaongkir-tools.herokuapp.com/CekOngkirPro/cek_kecamatan.php',
             data :  {'city_id' : city_id, 'key' : key},
                 success: function (data) {
                     $("#kecamatan_tujuan").html(data);
